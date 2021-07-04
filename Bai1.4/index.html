@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1.4</title>
+</head>
+
+<body>
+        <h1 align="center">Pete's Pizza Delivery</h1>
+        <h2 align="center">Online Order Form</h2>
+        <p align="center">*required fileds</p>
+        <table align="center" width="690">
+            <tr>
+                <td>
+                    <form>
+                        <fieldset>
+                            <legend>Customer details</legend>
+                            <table>
+                                <tr>
+                                    <td>*Name:</td>
+                                    <td><input type="text" name="name" size="70" /></td>
+                                </tr>
+                                <tr>
+                                    <td>*Address:</td>
+                                    <td><input type="text" name="address" size="70" /></td>
+                                </tr>
+                                <tr>
+                                    <td>*Town/city:</td>
+                                    <td><input type="text" name="city" size="50" /></td>
+                                </tr>
+                                <tr>
+                                    <td>*Postcode:</td>
+                                    <td><input type="number" name="postcode" /></td>
+                                </tr>
+                                <tr>
+                                    <td>*Tel:</td>
+                                    <td><input type="number" name="tel" /></td>
+                                </tr>
+                                <tr>
+                                    <td>*Email:</td>
+                                    <td><input type="email" name="email" size="70" /></td>
+                                </tr>
+                            </table>
+                            <br>
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <table align="center" width="690">
+            <tr>
+                <td valign="top">
+                    <form>
+                        <fieldset>
+                            <legend>Topping*</legend>
+                            <input type="radio" name="topping"> Margherita <br>
+                            <input type="radio" name="topping"> Four Seasons <br>
+                            <input type="radio" name="topping"> Meat Feast <br>
+                            <br>
+                        </fieldset>
+                    </form>
+                </td>
+                <td valign="top">
+                    <form>
+                        <fieldset>
+                            <legend>Size*</legend>
+                            <input type="radio" name="size"> Small <br>
+                            <input type="radio" name="size"> Medium <br>
+                            <input type="radio" name="size"> Large <br>
+                            <br>
+                        </fieldset>
+                    </form>
+                </td>
+                <td valign="top">
+                    <form>
+                        <fieldset>
+                            <legend>Extras*</legend>
+                            <input type="checkbox" name="size"> Mushrooms <br>
+                            <input type="checkbox" name="size"> Green peppers <br>
+                            <input type="checkbox" name="size"> Anchovies <br>
+                            <input type="checkbox" name="size"> Extra cheese <br>
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <table align="center" width="690">
+            <tr>
+                <td >
+                    <form>
+                        <fieldset>
+                            <legend>Delivery</legend>
+                            Preferred delivery time: <input type="time" name="time">
+                            <br>
+                            Delivery instructions: 
+                            <br>
+                            <textarea name="description" rows="5" cols="85"> Hôm nay trời mưa to quá </textarea>
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table align="center" width="690">
+            <tr>
+                <td>
+                    <button type="submit">Submit Oder</button>
+                </td>
+            </tr>
+        </table>
+        
+        
+        
+</body>
+
+</html>
